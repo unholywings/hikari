@@ -1,0 +1,3 @@
+[submodule "themes/unicorn"]
+	path = themes/unicorn
+	url = https://github.com/UnicornFantasia/unicorn.git

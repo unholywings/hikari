@@ -1,0 +1,10 @@
+theme = "unicorn"
+
+baseurl = "https://example.com/"
+title = "SiteTitle"
+
+[params.utterances]
+# https://utteranc.es/
+repo = "owner/repo"
+issueTerm = "pathname"
+theme = "github-light"
