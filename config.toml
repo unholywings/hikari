@@ -1,7 +1,7 @@
 theme = "unicorn"
 
-baseurl = "https://example.com/"
-title = "SiteTitle"
+baseurl = "https://unicornfantasia.netlify.app/"
+title = "🦄UnicornFantasia"
 
 [params.utterances]
 # https://utteranc.es/
