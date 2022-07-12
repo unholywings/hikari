@@ -8,3 +8,33 @@ title = "🦄UnicornFantasia"
 repo = "owner/repo"
 issueTerm = "pathname"
 theme = "github-light"
+
+[params]
+description = "気になった技術などを中心に書いていこうとおもいます!"
+
+[params.author]
+github = "ress997"
+twitter = "ress997"
+
+[params.images]
+icon = "https://twemoji.maxcdn.com/v/13.1.0/svg/1f98b.svg"
+
+[[menus.main]]
+url = "/about/"
+name = "About"
+
+[[menus.main]]
+url = "/tags/"
+name = "Tag"
+
+[outputs]
+page = ["HTML", "AMP"]
+
+[markup.highlight]
+codeFences = false
+
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
+
+[taxonomies]
+tag = "tags"
