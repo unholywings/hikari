@@ -10,7 +10,7 @@ issueTerm = "pathname"
 theme = "github-light"
 
 [params]
-description = "気になった技術などを中心に書いていこうとおもいます!"
+description = "Unicorn with ❤"
 
 [params.author]
 github = "ress997"
