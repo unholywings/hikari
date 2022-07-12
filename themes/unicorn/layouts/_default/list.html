@@ -8,8 +8,7 @@
 	{{ range $paginator.Pages }}
 	<section class="post">
 		<h1>
-                        {{- $image := resources.Get .Params.featured_image -}}
-                        <img src="{{ ($image.Fill "200x200 q100 Center").RelPermalink }}">
+                        <img class="card-img-top" src="{{ .Params.thumbnail_image }}" alt="{{ .Params.thumbnail_image_alt }}">
 			<a href="{{ .Permalink }}">{{ .Title }}</a>
 		</h1>
 
