@@ -1,6 +1,6 @@
 theme = "unicorn"
 
-baseurl = "https://www.unholywings.com/"
+baseurl = "https://unholywings.com/"
 title = "🦄UnicornFantasia"
 
 [params.utterances]
